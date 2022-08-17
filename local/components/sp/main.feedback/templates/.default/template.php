@@ -77,6 +77,19 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
                         <span class="checkbox-text"><?=GetMessage('PRIVACY')?></span>
                     </label>
                 </div>
+
+                <div class="form-footer form-footer-text">
+                    <p>
+                        <?
+                        $APPLICATION->IncludeComponent("bitrix:main.include", "", [
+                            "AREA_FILE_SHOW" => "file",
+                            "PATH" => SITE_TEMPLATE_PATH . "/include/form/text.php",
+                            "EDIT_TEMPLATE" => ""
+                        ], false, []);
+
+                        ?>
+                    </p>
+                </div>
             </form>
         </div>
     </div>

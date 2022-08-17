@@ -1,0 +1,1 @@
+I start with an image search with the term to understand the metaphor. The reason for doing a search is so that I can have a universal perspective as metaphors can be shaped based on my background, location or even age.

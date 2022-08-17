@@ -1,3 +1,7 @@
 #privacy-policy, #application-accepted {
     z-index: 999;
 }
+
+.form-footer-text{
+    justify-content: left;
+}
